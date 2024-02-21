@@ -13,7 +13,7 @@ body {
   margin: auto;
   width: 900px;
   height: 500px;
-  background-image: url("/img/back2.jpg");
+  background-image: url("./img/back2.jpg");
 }
 .first-content {
   margin: auto;
@@ -49,7 +49,7 @@ body {
   margin: auto;
   width: 900px;
   height: 500px;
-  background-image: url("/img/Background1.jpeg");
+  background-image: url("./img/Background1.jpeg");
 }
 .second-content {
   margin: auto;
@@ -88,7 +88,7 @@ body {
   margin: auto;
   width: 900px;
   height: 400px;
-  background-image: url("/img/night1.jpg");
+  background-image: url("./img/night1.jpg");
 }
 .third-content h1 {
   text-align: center;
@@ -184,7 +184,7 @@ body {
   margin: auto;
   width: 900px;
   height: 500px;
-  background-image: url("/img/night2.webp");
+  background-image: url("./img/night2.webp");
 }
 .fourth-content {
   margin: auto;
@@ -209,7 +209,7 @@ body {
   margin: auto;
   width: 900px;
   height: 500px;
-  background-image: url("/img/night3.jpg");
+  background-image: url("./img/night3.jpg");
 }
 .fifth-content {
   margin: auto;
@@ -254,7 +254,7 @@ body {
   margin: auto;
   width: 900px;
   height: 500px;
-  background-image: url("/img/night4.jpg");
+  background-image: url("./img/night4.jpg");
 }
 .sixth img {
   height: 150px;
@@ -336,7 +336,7 @@ body {
   margin: auto;
   width: 900px;
   height: 500px;
-  background-image: url("/img/beach.jpg");
+  background-image: url("./img/beach.jpg");
 }
 .eighth-content {
   margin: auto;
