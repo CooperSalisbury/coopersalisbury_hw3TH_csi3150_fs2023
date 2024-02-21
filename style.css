@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+}
+body {
+  background: black;
+}
+.first {
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  background-image: url("/img/back2.jpg");
+}
+.first-content {
+  margin: auto;
+}
+.center {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 150px;
+  height: 150px;
+}
+.first-content h1 {
+  color: yellow;
+  margin-top: 100px;
+  font-size: 70px;
+  text-align: center;
+}
+.first-content p {
+  color: yellow;
+  font-size: 15px;
+  text-align: center;
+}
+.first i {
+  font-size: 100px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: yellow;
+}
+
+.second {
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  background-image: url("/img/Background1.jpeg");
+}
+.second-content {
+  margin: auto;
+  display: flex;
+}
+.second .second-content .left-cont {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-right: 300px;
+  padding-left: 50px;
+}
+.second .second-content .right-cont {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-top: 200px;
+  margin-bottom: 300px;
+}
+.second .second-content .left-cont h1 {
+  text-align: center;
+  color: yellow;
+  padding-top: 100px;
+}
+.second .second-content .right-cont p {
+  text-align: center;
+  color: white;
+}
+.second .second-content .right-cont button {
+  border: none;
+  align-items: center;
+}
+.third {
+  margin: auto;
+  width: 900px;
+  height: 400px;
+  background-image: url("/img/night1.jpg");
+}
+.third-content h1 {
+  text-align: center;
+  color: white;
+}
+.threecards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-left: 10px;
+  position: relative;
+}
+.card1 img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-top: 25px;
+}
+.card2 img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-top: 25px;
+}
+.card3 img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-top: 25px;
+}
+.card1 p {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  margin-top: 200px;
+  color: white;
+  font-size: 20px;
+  margin-left: 75px;
+}
+.card2 p {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  margin-top: 200px;
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.card3 p {
+  position: absolute;
+  top: 10px;
+  margin-top: 100px;
+  color: white;
+  font-size: 20px;
+  margin-left: 75px;
+  margin-right: 50px;
+}
+.threecards i {
+  font-size: 100px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: yellow;
+  position: absolute;
+  top: 10px;
+  margin-top: 190px;
+  margin-left: 75px;
+}
+
+.second-content .readbtn {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+
+.third-content .readbtn {
+  border: none;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+}
+.fourth {
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  background-image: url("/img/night2.webp");
+}
+.fourth-content {
+  margin: auto;
+  display: flex;
+}
+.fourth .fourth-content .left-cont h1 {
+  text-align: center;
+  color: yellow;
+  padding-top: 175px;
+}
+.fourth .fourth-content .right-cont p {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fourth .fourth-content .right-cont h2 {
+  text-align: center;
+  color: white;
+}
+.fifth {
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  background-image: url("/img/night3.jpg");
+}
+.fifth-content {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.circle1 {
+  background-color: yellow;
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 125px;
+}
+.circle2 {
+  background-color: yellow;
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  text-align: center;
+  margin-top: 125px;
+}
+.circle3 {
+  background-color: yellow;
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  text-align: center;
+  margin-top: 125px;
+}
+.circle4 {
+  background-color: yellow;
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  text-align: center;
+  margin-top: 125px;
+}
+.sixth {
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  background-image: url("/img/night4.jpg");
+}
+.sixth img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: 70px;
+  margin-left: 375px;
+  margin-bottom: 50px;
+}
+.sixth q {
+  color: white;
+  text-align: center;
+  margin-left: 200px;
+  padding-top: 100px;
+}
+.sixth p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.sixth-content i {
+  font-size: 100px;
+  color: yellow;
+  margin-left: 390px;
+}
+.seventh {
+  margin: auto;
+  width: 900px;
+  height: 250px;
+}
+.seventh-content {
+  display: flex;
+  position: relative;
+}
+.seventh .img1 img {
+  width: 225px;
+  height: 250px;
+  position: relative;
+  display: block;
+}
+.seventh .img2 img {
+  width: 225px;
+  height: 250px;
+  position: relative;
+  display: block;
+}
+.seventh .img3 img {
+  width: 225px;
+  height: 250px;
+  position: relative;
+  display: block;
+}
+.seventh .img4 img {
+  width: 225px;
+  height: 250px;
+  position: relative;
+  display: block;
+}
+
+.seventh-content .left i {
+  font-size: 100px;
+  color: yellow;
+  position: absolute;
+  z-index: 10;
+  margin-top: 75px;
+  left: 0px;
+}
+.seventh-content .right i {
+  font-size: 100px;
+  color: yellow;
+  position: absolute;
+  z-index: 10;
+  margin-top: 75px;
+  right: 0px;
+}
+
+.eighth {
+  margin: auto;
+  width: 900px;
+  height: 500px;
+  background-image: url("/img/beach.jpg");
+}
+.eighth-content {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.eighth-content .left-cont h1 {
+  margin-top: 100px;
+  margin-left: 100px;
+  color: yellow;
+}
+li {
+  margin-left: 100px;
+  color: black;
+}
+.eighth-content .right-cont {
+  margin-top: 150px;
+  margin-right: 200px;
+  height: 500px;
+  width: 50px;
+}
+.eighth-content .right-cont button {
+  margin-top: 20px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+.eighth-content i {
+  font-size: 35px;
+  color: yellow;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.eighth-content .right-cont input {
+  margin-top: 20px;
+  scale: 1.5;
+  background: none;
+}
